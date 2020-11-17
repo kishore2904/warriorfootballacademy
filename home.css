@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppind';
+    font-weight: 600;
+}
+/*---------navigation------*/
+#nav-bar
+{
+    position:relative;
+    top: 0;
+    z-index: 10px;
+}
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: black!important;
+}
+.navbar
+{
+    background: blue;
+}
+.navbar-toggle
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: white!important;
+    font-weight: 600;
+    font-size: 16px
+}
+.carousel-inner img
+{
+    height: 550px;
+    width: 1300px;
+}
+/*--------banner------*/
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #456b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+.banner content
+{
+    position: relative;
+    max-width: 750px;
+    text-align: center;
+}
+.banner .content h2
+{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+.banner header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+}
+.banner header .logo
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    align-items: center;
+}
+#about
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+#about .contentbx 
+{
+    background: #162c3b;
+    padding: 20px;
+    width: 100%;
+}
+.heading
+{
+    color: #40fd02;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px; 
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.text
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/*-------organizer------*/
+#organizers
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #64b2ff;
+}
+#organizers h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    padding: 20px;
+    text-decoration: underline;
+}
+#organizers .row
+{
+    margin-top: 30px;
+}
+.col-md-4
+{
+    margin: 30px auto;
+}
+.profile
+{
+    padding: 50px 0px 10px;
+    background: #efefef;
+}
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img
+{
+    top: -70px;
+    left: 125px;
+    position: absolute;
+    left: calc(50% -60px);
+    border: 10px solid #fff;
+}
+.profile h3
+{
+    font-size: 30px;
+    margin-top: 15px;
+    color: #e4177f;
+}
+#organizers span
+{
+    font-size: 20px;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before
+{
+    content: '\93';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after
+{
+    content: '\94';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height:120px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile:hover
+{
+    box-shadow: 0 10px 55px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#organizers .abo
+{
+    text-align: center;
+}
+/*------galary-------*/
+
+#gall
+{
+    margin: 0px 50px;
+}
+#gallary .h1
+{
+    text-align: center;
+}
+.gallary img
+{
+    width: 250px;
+    padding: 10px;
+    transition: 1s;
+}
+.gallary img:hover
+{       
+    transform: scale(1.1);
+}
+
+.btn
+{
+    text-align:  center;
+}
+/*----footer-----*/
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+    text-transform:lowercase;
+}
